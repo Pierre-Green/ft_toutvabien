@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "42: Tout va bien",
+	"version": "1.0",
+	"description": "Bring peace to your head",
+	"content_scripts": [
+		{
+			"matches": ["https://profile.intra.42.fr/*"],
+			"js": ["happy.js"]
+		}
+	]
+}
